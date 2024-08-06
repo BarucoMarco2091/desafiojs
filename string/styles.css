@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --body-color:  rgba(10, 10, 139, 0.897);
+    --container-color-primary: rgba(10, 150, 10, 0.856);
+    --container-color-text: #fff;
+    --button-color-hover: deeppink;
+}
+
+body {
+    background-color: var(--body-color);
+}
+
+#container {
+    background-color: var(--container-color-primary);
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--container-color-text);
+}
+
+#container #name, #age, #city, .btn-concat {
+    width: 200px;
+    margin: auto;
+}
+
+.btn-concat {
+    height: 30px;
+    border-radius: 10px;
+}
+
+.btn-concat:hover {
+    background-color: var(--button-color-hover);
+}
+
+#rodape > p {
+    text-align: center;
+    color: var(--container-color-text);
+}

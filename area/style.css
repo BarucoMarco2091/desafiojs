@@ -1,0 +1,26 @@
+#container {
+    background-color: rgb(221, 25, 25);
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#container #num {
+    margin-top: 20px;
+}
+
+#container #num2 {
+    margin-top: 20px;
+}
+
+#container button {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}

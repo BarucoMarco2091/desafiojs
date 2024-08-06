@@ -1,0 +1,35 @@
+body {
+    background-color: blue;
+}
+
+#container {
+    box-sizing: border-box;
+    background-color: rgb(42, 158, 48);
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#container h1 {
+    text-align: center;
+}
+
+#fahrenheit #num {
+    width: 100px;
+    display: flex;
+    margin-left: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 140px;
+    border-radius: 10px;
+}
